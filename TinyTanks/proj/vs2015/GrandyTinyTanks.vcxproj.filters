@@ -1,0 +1,216 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\PowerUps">
+      <UniqueIdentifier>{4025d08a-4017-4408-87de-2056eb0f027b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\PowerUps">
+      <UniqueIdentifier>{1996fb88-70b0-420d-ae4b-055c38b1e3bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Environment">
+      <UniqueIdentifier>{65202c57-43c0-4783-b44a-d4c5ca55ae42}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Environment">
+      <UniqueIdentifier>{ea5de8f0-8e42-47f6-856f-e644680affbe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Tank">
+      <UniqueIdentifier>{aa496f79-963e-4046-9465-3be0bfbd1173}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Tank">
+      <UniqueIdentifier>{3a6b7b42-c078-4bd6-b554-fa984df57323}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Sprite">
+      <UniqueIdentifier>{98bdfa6c-ca9e-480e-acc4-a2e7d74f831d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Sprite">
+      <UniqueIdentifier>{246f6e73-03f4-469d-82db-c8cb88e95a74}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Environment\Map">
+      <UniqueIdentifier>{07a065c2-0392-4619-92d5-fef21aad6f85}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Environment\Obstacles">
+      <UniqueIdentifier>{48702b34-5816-4e5e-aca7-0d4a9c957571}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Environment\Map">
+      <UniqueIdentifier>{ef945cf7-5546-4d62-94c8-a3c05c1ee360}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Environment\Obstacles">
+      <UniqueIdentifier>{6ba1ffae-b504-48cc-8b3a-d08c55f54d2f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Collision">
+      <UniqueIdentifier>{74e4594e-bd0f-4d9b-bcac-5fddd138ccb4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Collision">
+      <UniqueIdentifier>{63363fa7-b969-42fe-9800-c1bb1063d29a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\source\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\Utilities.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\AmmoPowerUp.cpp">
+      <Filter>Source Files\PowerUps</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\HealthPowerUp.cpp">
+      <Filter>Source Files\PowerUps</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\ImmortalityPowerUp.cpp">
+      <Filter>Source Files\PowerUps</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\SpeedPowerUp.cpp">
+      <Filter>Source Files\PowerUps</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\PowerUp.cpp">
+      <Filter>Source Files\PowerUps</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\Tank.cpp">
+      <Filter>Source Files\Tank</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\Turret.cpp">
+      <Filter>Source Files\Tank</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\Bullet.cpp">
+      <Filter>Source Files\Tank</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\Sprite.cpp">
+      <Filter>Source Files\Sprite</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\Node.cpp">
+      <Filter>Source Files\Sprite</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\PowerUpsFactory.cpp">
+      <Filter>Source Files\PowerUps</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\Pencil.cpp">
+      <Filter>Source Files\Environment\Obstacles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\Obstacle.cpp">
+      <Filter>Source Files\Environment\Obstacles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\Level.cpp">
+      <Filter>Source Files\Environment\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\LevelOne.cpp">
+      <Filter>Source Files\Environment\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\LevelThree.cpp">
+      <Filter>Source Files\Environment\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\LevelTwo.cpp">
+      <Filter>Source Files\Environment\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\MapManager.cpp">
+      <Filter>Source Files\Environment\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\ScoresManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\GJK.cpp">
+      <Filter>Source Files\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\CollisionManager.cpp">
+      <Filter>Source Files\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\Health.cpp">
+      <Filter>Source Files\Tank</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\GameplayManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\include\GameStates.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\Utilities.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\AmmoPowerUp.h">
+      <Filter>Header Files\PowerUps</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\HealthPowerUp.h">
+      <Filter>Header Files\PowerUps</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\ImmortalityPowerUp.h">
+      <Filter>Header Files\PowerUps</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\SpeedPowerUp.h">
+      <Filter>Header Files\PowerUps</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\PowerUp.h">
+      <Filter>Header Files\PowerUps</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\Turret.h">
+      <Filter>Header Files\Tank</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\Tank.h">
+      <Filter>Header Files\Tank</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\Bullet.h">
+      <Filter>Header Files\Tank</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\Sprite.h">
+      <Filter>Header Files\Sprite</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\Node.h">
+      <Filter>Header Files\Sprite</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\PowerUpsFactory.h">
+      <Filter>Header Files\PowerUps</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\Pencil.h">
+      <Filter>Header Files\Environment\Obstacles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\Obstacle.h">
+      <Filter>Header Files\Environment\Obstacles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\Level.h">
+      <Filter>Header Files\Environment\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\LevelOne.h">
+      <Filter>Header Files\Environment\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\LevelThree.h">
+      <Filter>Header Files\Environment\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\LevelTwo.h">
+      <Filter>Header Files\Environment\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\MapManager.h">
+      <Filter>Header Files\Environment\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\ScoresManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\GJK.h">
+      <Filter>Header Files\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\CollisionManager.h">
+      <Filter>Header Files\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\Health.h">
+      <Filter>Header Files\Tank</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\GameplayManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd" />
+  </ItemGroup>
+</Project>

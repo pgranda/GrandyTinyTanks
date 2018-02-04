@@ -1,0 +1,242 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\source\AmmoPowerUp.cpp" />
+    <ClCompile Include="..\..\source\Bullet.cpp" />
+    <ClCompile Include="..\..\source\CollisionManager.cpp" />
+    <ClCompile Include="..\..\source\GameplayManager.cpp" />
+    <ClCompile Include="..\..\source\GJK.cpp" />
+    <ClCompile Include="..\..\source\Health.cpp" />
+    <ClCompile Include="..\..\source\HealthPowerUp.cpp" />
+    <ClCompile Include="..\..\source\ImmortalityPowerUp.cpp" />
+    <ClCompile Include="..\..\source\Level.cpp" />
+    <ClCompile Include="..\..\source\LevelOne.cpp" />
+    <ClCompile Include="..\..\source\LevelThree.cpp" />
+    <ClCompile Include="..\..\source\LevelTwo.cpp" />
+    <ClCompile Include="..\..\source\main.cpp" />
+    <ClCompile Include="..\..\source\MapManager.cpp" />
+    <ClCompile Include="..\..\source\Node.cpp" />
+    <ClCompile Include="..\..\source\Obstacle.cpp" />
+    <ClCompile Include="..\..\source\Pencil.cpp" />
+    <ClCompile Include="..\..\source\PowerUp.cpp" />
+    <ClCompile Include="..\..\source\PowerUpsFactory.cpp" />
+    <ClCompile Include="..\..\source\ScoresManager.cpp" />
+    <ClCompile Include="..\..\source\SpeedPowerUp.cpp" />
+    <ClCompile Include="..\..\source\Sprite.cpp" />
+    <ClCompile Include="..\..\source\Tank.cpp" />
+    <ClCompile Include="..\..\source\Turret.cpp" />
+    <ClCompile Include="..\..\source\Utilities.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\deps\StaticLibrary\StaticLibrary.vcxproj">
+      <Project>{3fbb5fef-836b-447a-b0f6-753c58ae6366}</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\include\AmmoPowerUp.h" />
+    <ClInclude Include="..\..\include\Bullet.h" />
+    <ClInclude Include="..\..\include\CollisionManager.h" />
+    <ClInclude Include="..\..\include\GameplayManager.h" />
+    <ClInclude Include="..\..\include\GameStates.h" />
+    <ClInclude Include="..\..\include\GJK.h" />
+    <ClInclude Include="..\..\include\Health.h" />
+    <ClInclude Include="..\..\include\HealthPowerUp.h" />
+    <ClInclude Include="..\..\include\ImmortalityPowerUp.h" />
+    <ClInclude Include="..\..\include\Level.h" />
+    <ClInclude Include="..\..\include\LevelOne.h" />
+    <ClInclude Include="..\..\include\LevelThree.h" />
+    <ClInclude Include="..\..\include\LevelTwo.h" />
+    <ClInclude Include="..\..\include\MapManager.h" />
+    <ClInclude Include="..\..\include\Node.h" />
+    <ClInclude Include="..\..\include\Obstacle.h" />
+    <ClInclude Include="..\..\include\Pencil.h" />
+    <ClInclude Include="..\..\include\PowerUp.h" />
+    <ClInclude Include="..\..\include\PowerUpsFactory.h" />
+    <ClInclude Include="..\..\include\ScoresManager.h" />
+    <ClInclude Include="..\..\include\SpeedPowerUp.h" />
+    <ClInclude Include="..\..\include\Sprite.h" />
+    <ClInclude Include="..\..\include\Tank.h" />
+    <ClInclude Include="..\..\include\Turret.h" />
+    <ClInclude Include="..\..\include\Utilities.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{7CD622AF-69B8-4D7B-9E10-3FC691CEDC98}</ProjectGuid>
+    <RootNamespace>GrandyTinyTanks</RootNamespace>
+    <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>..\..\bin\$(Platform)\$(Configuration)\</OutDir>
+    <IntDir>./obj\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>..\..\bin\$(Platform)\$(Configuration)\</OutDir>
+    <IntDir>./obj\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <OutDir>..\..\bin\$(Platform)\$(Configuration)\</OutDir>
+    <IntDir>./obj\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <OutDir>..\..\bin\$(Platform)\$(Configuration)\</OutDir>
+    <IntDir>./obj\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level4</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>$(SolutionDir)../../include;$(SolutionDir)../../deps/tinyxml;$(SolutionDir)../../deps/UoG/include</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;GLM_SWIZZLE;GLM_FORCE_RADIANS;GLM_FORCE_PURE;GLEW_STATIC;_MBCS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <DisableSpecificWarnings>4201;4310;4100;</DisableSpecificWarnings>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>$(SolutionDir)../../lib\vs2015\$(Platform)\$(Configuration);$(SolutionDir)../../deps/UoG/lib/vs2015/$(Platform)/$(Configuration)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>UG Basic Framework.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <PostBuildEvent>
+      <Command>../../scripts\copyResourcesToBuildDirectory.bat "$(ProjectDir)$(Outdir)"</Command>
+    </PostBuildEvent>
+    <PreBuildEvent>
+      <Command>../../scripts\CopyPDBDataOnBuild.bat vs2015\$(Platform)\$(Configuration)\ "$(ProjectDir)$(Outdir)"</Command>
+    </PreBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level4</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>$(SolutionDir)../../include;$(SolutionDir)../../deps/tinyxml;$(SolutionDir)../../deps/UoG/include;$(SolutionDir)../../deps/StaticLibrary/include</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;GLM_SWIZZLE;GLM_FORCE_RADIANS;GLM_FORCE_PURE;GLEW_STATIC;_MBCS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <DisableSpecificWarnings>4201;4310;4100;</DisableSpecificWarnings>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>$(SolutionDir)../../lib\vs2015\$(Platform)\$(Configuration);$(SolutionDir)../../deps/UoG/lib/vs2015/$(Platform)/$(Configuration)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>UG Basic Framework.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <PostBuildEvent>
+      <Command>../../scripts\copyResourcesToBuildDirectory.bat "$(ProjectDir)$(Outdir)"</Command>
+    </PostBuildEvent>
+    <PreBuildEvent>
+      <Command>../../scripts\CopyPDBDataOnBuild.bat vs2015\$(Platform)\$(Configuration)\ "$(ProjectDir)$(Outdir)"</Command>
+    </PreBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level4</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>$(SolutionDir)../../include;$(SolutionDir)../../deps/tinyxml;$(SolutionDir)../../deps/UoG/include</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;GLM_SWIZZLE;GLM_FORCE_RADIANS;GLM_FORCE_PURE;GLEW_STATIC;_MBCS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <DisableSpecificWarnings>4201;4310;4100;</DisableSpecificWarnings>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalLibraryDirectories>$(SolutionDir)../../lib\vs2015\$(Platform)\$(Configuration);$(SolutionDir)../../deps/UoG/lib/vs2015/$(Platform)/$(Configuration)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>UG Basic Framework.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <PostBuildEvent>
+      <Command>../../scripts\copyResourcesToBuildDirectory.bat "$(ProjectDir)$(Outdir)"</Command>
+    </PostBuildEvent>
+    <PreBuildEvent>
+      <Command>../../scripts\CopyPDBDataOnBuild.bat vs2015\$(Platform)\$(Configuration)\ "$(ProjectDir)$(Outdir)"</Command>
+    </PreBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level4</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>$(SolutionDir)../../include;$(SolutionDir)../../deps/tinyxml;$(SolutionDir)../../deps/UoG/include</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;GLM_SWIZZLE;GLM_FORCE_RADIANS;GLM_FORCE_PURE;GLEW_STATIC;_MBCS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <DisableSpecificWarnings>4201;4310;4100;</DisableSpecificWarnings>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalLibraryDirectories>$(SolutionDir)../../lib\vs2015\$(Platform)\$(Configuration);$(SolutionDir)../../deps/UoG/lib/vs2015/$(Platform)/$(Configuration)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>UG Basic Framework.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <PostBuildEvent>
+      <Command>../../scripts\copyResourcesToBuildDirectory.bat "$(ProjectDir)$(Outdir)"</Command>
+    </PostBuildEvent>
+    <PreBuildEvent>
+      <Command>../../scripts\CopyPDBDataOnBuild.bat vs2015\$(Platform)\$(Configuration)\ "$(ProjectDir)$(Outdir)"</Command>
+    </PreBuildEvent>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

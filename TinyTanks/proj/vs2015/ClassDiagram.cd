@@ -1,0 +1,249 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Utilities" Collapsed="true">
+    <Position X="8.25" Y="4.75" Width="1.5" />
+    <AssociationLine Name="gameplayManager" Type="GameplayManager">
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="0.11" Y="0.05" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>YSSEEAIAAURAIQCAgEAAgAAAAAEEAAQQEAQBQAAGBAA=</HashCode>
+      <FileName>D:\UNI\CT4019\Semester 2\Assignment 2\CT4019 Assignment 2 REPO\TinyTanks\include\Utilities.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="gameplayManager" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Bullet" Collapsed="true">
+    <Position X="4.75" Y="10" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAADAAogAhAAgAAAKCEBAAIQABAEEAAAAAGAQAAQ=</HashCode>
+      <FileName>D:\UNI\CT4019\Semester 2\Assignment 2\CT4019 Assignment 2 REPO\TinyTanks\include\Bullet.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Health" Collapsed="true">
+    <Position X="12.25" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAAAAAAgAAAECAAAAAGAAAAAAAAABBBAAAAAA=</HashCode>
+      <FileName>D:\UNI\CT4019\Semester 2\Assignment 2\CT4019 Assignment 2 REPO\TinyTanks\include\Health.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Tank" Collapsed="true">
+    <Position X="9.75" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BEEOQAAEFCACBUIiCEEQCUEUAEQAAAAAJEAIFAAjYEg=</HashCode>
+      <FileName>D:\UNI\CT4019\Semester 2\Assignment 2\CT4019 Assignment 2 REPO\TinyTanks\include\Tank.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="Turret" />
+      <Field Name="health" />
+      <Field Name="powerUp" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Turret" Collapsed="true">
+    <Position X="7.25" Y="10.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAoEAAQAEACEgAAhAAgAAAAAQIgANgAAgAAAgAAGACQ=</HashCode>
+      <FileName>D:\UNI\CT4019\Semester 2\Assignment 2\CT4019 Assignment 2 REPO\TinyTanks\include\Turret.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameplayManager" Collapsed="true">
+    <Position X="6.25" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIBCQAAEADAAgAAkgQEAAAQEAAgAAIgoAAgAIAgFAEA=</HashCode>
+      <FileName>D:\UNI\CT4019\Semester 2\Assignment 2\CT4019 Assignment 2 REPO\TinyTanks\include\GameplayManager.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="pTank1" />
+      <Field Name="mapManager" />
+      <Field Name="collisionManager" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="ScoresManager" Collapsed="true">
+    <Position X="2.25" Y="9.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACAAAAgAgAgQkQACACAAAAAQAAAAgAAAAAAA=</HashCode>
+      <FileName>D:\UNI\CT4019\Semester 2\Assignment 2\CT4019 Assignment 2 REPO\TinyTanks\include\ScoresManager.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sprite" Collapsed="true">
+    <Position X="7.25" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAQAAAACACAAAABAARAEMAAAAAAgBgAQQAAAAAAAAAI=</HashCode>
+      <FileName>D:\UNI\CT4019\Semester 2\Assignment 2\CT4019 Assignment 2 REPO\TinyTanks\include\Sprite.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Node" Collapsed="true">
+    <Position X="7.25" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QIAAQAAAAAAAEAAAAAIAACAAAAIAAAAgQEKAAAEAAAA=</HashCode>
+      <FileName>D:\UNI\CT4019\Semester 2\Assignment 2\CT4019 Assignment 2 REPO\TinyTanks\include\Node.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpeedPowerUp" Collapsed="true">
+    <Position X="17" Y="10" Width="1.5" />
+    <InheritanceLine Type="PowerUp" FixedToPoint="true">
+      <Path>
+        <Point X="15.5" Y="8.691" />
+        <Point X="15.5" Y="9.625" />
+        <Point X="17.688" Y="9.625" />
+        <Point X="17.688" Y="10" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAAAAAAAAACAAAAAAAAAAAAIAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\UNI\CT4019\Semester 2\Assignment 2\CT4019 Assignment 2 REPO\TinyTanks\include\SpeedPowerUp.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PowerUpsFactory" Collapsed="true">
+    <Position X="16.5" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\UNI\CT4019\Semester 2\Assignment 2\CT4019 Assignment 2 REPO\TinyTanks\include\PowerUpsFactory.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PowerUp" Collapsed="true">
+    <Position X="14.75" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAABAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\UNI\CT4019\Semester 2\Assignment 2\CT4019 Assignment 2 REPO\TinyTanks\include\PowerUp.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ImmortalityPowerUp" Collapsed="true">
+    <Position X="11.75" Y="10" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAAAAAAAAAAAAAAAQAAAAAAIAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\UNI\CT4019\Semester 2\Assignment 2\CT4019 Assignment 2 REPO\TinyTanks\include\ImmortalityPowerUp.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HealthPowerUp" Collapsed="true">
+    <Position X="13.5" Y="10" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAgAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\UNI\CT4019\Semester 2\Assignment 2\CT4019 Assignment 2 REPO\TinyTanks\include\HealthPowerUp.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AmmoPowerUp" Collapsed="true">
+    <Position X="15.25" Y="10" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAAAAAAAAAAAAAAAAAAAAAEIAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\UNI\CT4019\Semester 2\Assignment 2\CT4019 Assignment 2 REPO\TinyTanks\include\AmmoPowerUp.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Pencil" Collapsed="true">
+    <Position X="13" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAEA=</HashCode>
+      <FileName>D:\UNI\CT4019\Semester 2\Assignment 2\CT4019 Assignment 2 REPO\TinyTanks\include\Pencil.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Obstacle" Collapsed="true">
+    <Position X="10.5" Y="6" Width="1.5" />
+    <InheritanceLine Type="Sprite" FixedToPoint="true">
+      <Path>
+        <Point X="8" Y="8.5" />
+        <Point X="8" Y="8" />
+        <Point X="11.25" Y="8" />
+        <Point X="11.25" Y="6.82" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\UNI\CT4019\Semester 2\Assignment 2\CT4019 Assignment 2 REPO\TinyTanks\include\Obstacle.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MapManager" Collapsed="true">
+    <Position X="4.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAABBAAAAAAAQAAABAAEAAAAAAAEAAAAAAAA=</HashCode>
+      <FileName>D:\UNI\CT4019\Semester 2\Assignment 2\CT4019 Assignment 2 REPO\TinyTanks\include\MapManager.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="level" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="LevelTwo" Collapsed="true">
+    <Position X="4.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAA=</HashCode>
+      <FileName>D:\UNI\CT4019\Semester 2\Assignment 2\CT4019 Assignment 2 REPO\TinyTanks\include\LevelTwo.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LevelThree" Collapsed="true">
+    <Position X="6.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAABAAA=</HashCode>
+      <FileName>D:\UNI\CT4019\Semester 2\Assignment 2\CT4019 Assignment 2 REPO\TinyTanks\include\LevelThree.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LevelOne" Collapsed="true">
+    <Position X="2" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAABAAA=</HashCode>
+      <FileName>D:\UNI\CT4019\Semester 2\Assignment 2\CT4019 Assignment 2 REPO\TinyTanks\include\LevelOne.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Level" Collapsed="true">
+    <Position X="4.25" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAABAAAAAAAAAQAAAAAAAAAAAAAAAEAIBAAA=</HashCode>
+      <FileName>D:\UNI\CT4019\Semester 2\Assignment 2\CT4019 Assignment 2 REPO\TinyTanks\include\Level.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GJK" Collapsed="true">
+    <Position X="2" Y="7" Width="1.5" />
+    <AssociationLine Name="simplex" Type="Shape" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="2.562" Y="7.562" />
+        <Point X="2.562" Y="8.031" />
+        <Point X="4.25" Y="8.031" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAEAgAAAAIAAQAAAA=</HashCode>
+      <FileName>D:\UNI\CT4019\Semester 2\Assignment 2\CT4019 Assignment 2 REPO\TinyTanks\include\GJK.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="simplex" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="CollisionManager" Collapsed="true">
+    <Position X="4.25" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAABAAAAAAAACABQAAAAAAAAAAAAAAAAACAAAA=</HashCode>
+      <FileName>D:\UNI\CT4019\Semester 2\Assignment 2\CT4019 Assignment 2 REPO\TinyTanks\include\CollisionManager.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="gjk" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Shape" Collapsed="true">
+    <Position X="4.25" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEACAAAAAAAAQEQAAKAABAoAQAAAAAAAAAAEABAAU=</HashCode>
+      <FileName>d:\UNI\CT4019\Semester 2\Assignment 2\CT4019 Assignment 2 REPO\TinyTanks\deps\StaticLibrary\include\Shape.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Typedef Name="GameState" Collapsed="true">
+    <Position X="2" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\UNI\CT4019\Semester 2\Assignment 2\CT4019 Assignment 2 REPO\TinyTanks\include\GameStates.h</FileName>
+    </TypeIdentifier>
+    <AliasOfLine Type="GameStates" FixedFromPoint="true">
+      <Path>
+        <Point X="2.75" Y="5.75" />
+        <Point X="2.75" Y="5.312" />
+      </Path>
+    </AliasOfLine>
+  </Typedef>
+  <Enum Name="GameStates" Collapsed="true">
+    <Position X="2" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAAAAAAAAAAAAAAgAAAIAAAAAAAAABAAgIAAA=</HashCode>
+      <FileName>D:\UNI\CT4019\Semester 2\Assignment 2\CT4019 Assignment 2 REPO\TinyTanks\include\GameStates.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
